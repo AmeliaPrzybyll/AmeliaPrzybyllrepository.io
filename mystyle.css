@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: 'Inter', sans-serif;
+	
+}
+.container .solid .p1 .poznajnas h1{
+	font-size: 18px;
+}
+.poznajnas img {
+	width: 80%;
+}
+
+.opinie .zdjecie {
+	justify-content: center;
+	align-items: center;
+	margin-bottom: -20px;
+	position:relative;
+	
+}
+	.opinie .zdjecie #opinie {
+		justify-content: center;
+		align-items: center;
+		position:relative;
+	}
+body{
+	background: #1E3040 ;
+	margin-top: 20px;
+}
+a{
+	text-decoration: none;
+
+}
+h1,h2{
+	font-weight: 300;
+	line-height: 1.2;
+	margin: 10px 0;
+}
+p{
+	margin: 10px 0;
+}
+img{
+	width:100%;
+}
+
+.navbar{
+	color: #fff;
+	max-height:170px;
+
+}
+.navbar ul {
+		
+	font-size: 15px;
+	display: flex;
+}
+.navbar a{
+	color: #fff;
+	padding: 10px;
+	margin:0 18px;
+}
+.navbar .flex{
+	justify-content: space-between;
+}
+	.navbar .logo {
+		
+			max-width:140px;
+	}
+.container{
+	max-width:1100px;
+	margin:0 auto;
+	overflow:auto;
+	
+}
+.container_stopka {
+	max-width: 1100px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.flex{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+#przycisk1 {
+	border-radius: 50px;
+	background: #D9B779;
+	padding: 15px;
+	width: 200px;
+	max-height: 130px;
+}
+
+.showcase-text {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 22px;
+	margin-top: 40px;
+	margin-bottom:60px;
+	line-height: 30px;
+}
+.podlogo {
+	
+	text-align: center;
+	font-size: 19px;
+	margin-bottom:70px;
+}
+#przycisk2 {
+	border-radius: 50px;
+	background: #D9B779;
+	padding: 15px;
+	max-width: 200px;
+	max-height: 100px;
+}
+#przycisk3 {
+	border-radius: 50px;
+	background: #D9B779;
+	padding: 20px;
+	justify-content:center;
+	text-align: center;
+	max-width: 200px;
+	max-height: 100px;
+}
+}
+.container1 {
+	max-width: 1100px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 0 px;
+}
+
+
+.p1 {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	text-align:left;
+	align-items: center;
+	max-height: 100%;
+	color: #FFFFFF;
+	margin: 12px 12px 12px 12px;
+	padding: 20px;
+}
+div.solid {
+	margin-top:30px;
+	border-style: groove;
+	border-color: #D9B779;
+	border-radius: 50px;
+}
+.p2 {
+	display: flex;
+	flex-direction: row;
+	margin-top:40px;
+	align-items: center;
+	justify-content: space-around;
+	color: #fff;
+	max-height: 180px;
+	
+}
+
+
+.p3 {
+	text-align: center;
+	color: #fff;
+	font-size: 15x;
+	margin-top:35px;
+	margin-bottom:35px;
+}
+.stopka {
+	background-color: #252020 ;
+	color: #D9B779;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 12px 2px 12px 0px;
+}
+	.stopka ol {
+		padding: 20px 0px 30px 0px;
+		font-size: 13px;
+	}
+.opinie {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	margin: 12px 2px 12px 12px;
+	padding: 10px;
+
+}
+
+#opinie {
+	border-radius: 0px;
+	font-size:15px;
+	background: #D9B779;
+	padding: 4px;
+	width: 225px;
+	height: 200px;
+	text-align:center;
+}
+#opinie p{
+	padding: 10px;
+}
+.p1 .poznajnas h1 {
+	font-size: 22px;
+
+}
+@media only screen and (max-width: 700px) {
+	body {
+		background: #1E3040;
+		margin-top: 20px;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	h1, h2 {
+		font-weight: 300;
+		line-height: 1.2;
+		margin: 10px 0;
+	}
+
+	p {
+		margin: 10px 0;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	.navbar {
+		color: #fff;
+		max-height: 140px;
+	}
+
+		.navbar ul {
+			font-size: 8px;
+			display: flex;
+		}
+
+		.navbar a {
+			color: #fff;
+			padding: 5px;
+			margin: 0 6px;
+		}
+
+		.navbar .flex {
+			justify-content: space-between;
+		}
+
+		.navbar .logo {
+			width: 20%;
+		}
+
+	.container {
+		max-width: 699px;
+		margin: 0 auto;
+		overflow: auto;
+	}
+
+	.container_stopka {
+		max-width: 1100px;
+		margin: 0 auto;
+		overflow: auto;
+	}
+
+	.flex {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 100%;
+	}
+
+	#przycisk1 {
+		border-radius: 50px;
+		background: #D9B779;
+		padding: 15px;
+		width: 200px;
+		max-height: 130px;
+	}
+
+	.showcase-text {
+		color: #FFFFFF;
+		text-align: center;
+		font-size: 14px;
+		margin-top: 30px;
+		margin-bottom: 50px;
+		line-height: 30px;
+	}
+
+	.podlogo {
+		text-align: center;
+		font-size: 11px;
+		margin-bottom: 70px;
+	}
+
+	#przycisk2 {
+		border-radius: 50px;
+		background: #D9B779;
+		padding: 15px;
+		max-width: 200px;
+		max-height: 100px;
+	}
+
+	#przycisk3 {
+		border-radius: 50px;
+		background: #D9B779;
+		padding: 20px;
+		justify-content: center;
+		text-align: center;
+		max-width: 200px;
+		max-height: 100px;
+	}
+
+
+.container1 {
+	max-width: 1100px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 0 px;
+}
+
+
+.p1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: left;
+	align-items: center;
+	max-height: 100%;
+	color: #FFFFFF;
+	margin: 12px 12px 12px 12px;
+	padding: 15px;
+}
+	.p1 .poznajnas h1 {
+		font-size:18px;
+	}
+	.p1 .poznajnas p{
+		font-size:13px;
+	}
+	.poznajnas img{
+		max-width:300px;
+	}
+
+div.solid {
+	margin-top: 30px;
+	border-style: groove;
+	border-color: #D9B779;
+	border-radius: 50px;
+}
+
+.p2 {
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	align-items: center;
+	justify-content: space-around;
+	color: #fff;
+	max-height: 180px;
+	font-size:11px;
+}
+
+
+.p3 {
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.stopka {
+	background-color: #252020;
+	color: #D9B779;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 12px 2px 12px 0px;
+}
+
+	.stopka ol {
+		padding: 20px 0px 30px 0px;
+		font-size: 13px;
+	}
+	.opinie .zdjecie {
+		justify-content: center;
+		align-items: center;
+		margin-bottom: -20px;
+		position: relative;
+		margin-top: 50px;
+	}
+
+		.opinie .zdjecie #opinie {
+			justify-content: center;
+			align-items: center;
+			position: relative;
+		}
+.opinie {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	margin: 12px 2px 12px 12px;
+	padding: 20px;
+}
+
+#opinie {
+	border-radius: 0px;
+	font-size: 15px;
+	background: #D9B779;
+	padding: 4px;
+	width: 225px;
+	height: 200px;
+	text-align: center;
+}
+
+	#opinie p {
+		padding: 10px;
+	}
+	}
